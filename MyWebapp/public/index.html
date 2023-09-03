@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <script
+      src="js/connect-to-iot-hub.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Send Data to Raspi</title>
+  </head>
+
+  <body>
+    <h1 class="flexHeader">
+      <span>Send Data to Raspi</span>
+    </h1>
+    <div id="mainContent">
+      <div id="myApp">
+        <h2>Function 1 - Send text for display</h2>
+        <div id="textSection">
+          <span>Line 0: </span><input type="text" maxlength="16" id="line0" />
+          <span>Line 2: </span><input type="text" maxlength="16" id="line1" />
+          <button
+            type="button"
+            id="sendTextToHub"
+            style="grid-column: 1 / span2"
+          >
+            Send Text to Hub
+          </button>
+        </div>
+        <hr />
+        <h2>Function 2 - Show click counter</h2>
+        <div id="counterSection">
+          Click Counter:
+          <code id="clickCounter">0</code>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

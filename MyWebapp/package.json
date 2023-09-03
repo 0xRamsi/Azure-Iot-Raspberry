@@ -1,0 +1,19 @@
+{
+  "name": "webapp",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=10.6",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@azure/event-hubs": ">=5.0.2",
+    "azure-iot-common": "^1.13.2",
+    "azure-iothub": "^1.16.4",
+    "express": ">=4.17.1",
+    "ws": ">=7.1.2"
+  }
+}
